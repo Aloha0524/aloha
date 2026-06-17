@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <!-- 移动端核心视口配置，完美适配手机 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>个人简历</title>
+    <!-- 引入外部样式表 -->
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <!-- 渐变背景头部 + 渐变文字标题 -->
+    <div class="resume-header">
+        <h2 class="name-title">前端开发工程师</h2>
+        <p>姓名：炫迈砂糖桔 | 熟练掌握HTML/CSS/JS 视觉动效开发</p>
+    </div>
+
+    <!-- 粘性置顶导航栏 -->
+    <header>
+        <h1>炫迈砂糖桔</h1>
+        <nav>
+            <a href="#about">关于我</a>
+            <a href="#skills">专业技能</a>
+            <a href="#project">项目经历</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- 关于我区域 -->
+        <section id="about">
+            <h2>关于我</h2>
+            <div class="about-content">
+                <div class="avatar-wrapper">
+                    <img src="touxiang.jpg" alt="个人头像">
+                    <span class="badge"></span>
+                </div>
+                <p>我是一名计算机专业在校生，热爱前后端开发，擅长Python数据处理与静态网页搭建，具备良好的自学能力与项目实操经验。联系方式：example@email.com</p>
+            </div>
+        </section>
+
+        <!-- 技能进度条区域 -->
+        <section id="skills">
+            <h2>我掌握的技术</h2>
+            <ul>
+                <li>
+                    Python数据处理
+                    <div class="skill-bar-box">
+                        <div class="skill-bar-fill"></div>
+                    </div>
+                </li>
+                <li>
+                    HTML5语义化页面开发
+                    <div class="skill-bar-box">
+                        <div class="skill-bar-fill"></div>
+                    </div>
+                </li>
+                <li>
+                    CSS3页面布局与样式美化
+                    <div class="skill-bar-box">
+                        <div class="skill-bar-fill"></div>
+                    </div>
+                </li>
+                <li>
+                    JavaScript基础交互开发
+                    <div class="skill-bar-box">
+                        <div class="skill-bar-fill"></div>
+                    </div>
+                </li>
+                <li>
+                    基础数据库SQL操作
+                    <div class="skill-bar-box">
+                        <div class="skill-bar-fill"></div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <!-- 项目经历（多个独立卡片盒子） -->
+        <section id="project">
+            <h2>项目经历</h2>
+            <div class="project-list">
+                <!-- 项目1：Python学生成绩管理系统 -->
+                <div class="project-card">
+                    <h3>Python学生成绩管理系统</h3>
+                    <p>基于Python开发的控制台管理系统，支持学生信息录入、成绩添加、成绩查询、数据修改与删除功能，可实现批量数据统计与排名，简化校园成绩管理流程，适合课程实训与基础项目实战。</p>
+                </div>
+
+                <!-- 项目2：个人静态简历网页 -->
+                <div class="project-card">
+                    <h3>个人静态简历网页</h3>
+                    <p>基于HTML5+CSS3开发的响应式个人简历网站，包含渐变视觉效果、粘性置顶导航、技能进度条动画、移动端适配布局，页面简洁美观，交互流畅，兼容电脑、平板、手机各类设备。</p>
+                </div>
+
+                <!-- 项目3：简易待办网页工具 -->
+                <div class="project-card">
+                    <h3>简易待办网页工具</h3>
+                    <p>原生JS开发的轻量化待办事项工具，支持添加待办、删除事项、标记完成、清空全部功能，界面简洁清爽，无需服务器，本地直接打开即可使用，掌握前端基础DOM交互逻辑。</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer>
+        <p>© 2026 炫迈砂糖桔的简历</p>
+    </footer>
+</body>
+</html>
